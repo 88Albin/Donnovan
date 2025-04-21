@@ -1,0 +1,162 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
+h1{
+font: bold;
+font-size: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    font: bold 14px verdana, arial, sans-serif;
+}
+body{
+    background-image: url(imagenes/FONDO6.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: fixed;
+    text-align: center;
+}
+#cuerpo {
+    width: 960px;
+    margin: 15px;
+    text-align: left;
+}
+#cabecera {
+    background: white;
+    padding: 20px;
+    text-align: center;
+}
+.logo{
+    clip-path: circle(35%);
+    width: 200px;
+    transition: .3s;
+}
+.logo:hover{
+    clip-path: circle(38%);
+    scale: 1.02;
+}
+#menu {
+    background: beige;
+    border: 1px solid rgb(24, 24, 127);
+    padding: 5px 15px;
+    text-align: right ;
+}
+.nav-enlace {
+    text-align: center;
+    width: 80px;
+    margin: 10px;
+    display: inline-block;
+    background: beige;
+    color: rgb(24, 24, 127);
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.nav-enlace:hover {
+    background: rgb(24, 24, 127);
+    color: beige;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    -moz-box-shadow: black 5px 5px;
+    -webkit-box-shadow: black 5px 5px;
+    box-shadow: black;
+}
+
+#seccion {
+    background: white;
+    float: left;
+    width: 660px;
+}
+.articulo{
+    background: beige;
+    border: 1px black;
+    padding: 20px;
+    margin: 15px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    -moz-box-shadow: rgb(24, 24, 127) 5px 5px;
+    -webkit-box-shadow: rgb(24, 24, 127) 5px 5px;
+    box-shadow: rgb(24, 24, 127) 5px 5px;
+    text-align: center;
+}
+.aboutus{
+    clip-path: polygon(100%);
+    width: 200px;
+    transition: .3s;
+}
+.aboutus:hover {
+    clip-path: polygon(100%);
+    scale: 3.0;
+}
+h2{
+    color: rgb(24, 24, 127);
+    font-size: 20px;
+    font-style: bold;
+    text-shadow: 7px 4px 5px white;
+}
+p{
+    color: black;
+    background-color: beige;
+    font-size: 18px;
+    line-height: 1.5;
+    font-style: normal;
+}
+span.super {
+    vertical-align: 5px;
+}
+span.sub {
+    vertical-align: -5px;
+}
+#lateral {
+    float: left;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 20px;
+    background: rgb(24, 24, 127);
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    -moz-box-shadow: beige 5px 5px;
+    -webkit-box-shadow: beige 5px 5px;
+    box-shadow: beige 5px 5px;
+}
+.lateral {
+    color: white;
+    padding: 5px;
+    line-height: 1.5;
+}
+table{
+    text-shadow: #369 2px 2px 2px;
+    font-family: verdana, arial, sans-serif;
+    font-size: 12px;
+    border-radius: 1px;
+}
+.div {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img_contenedor {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.img_contenedor img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out; 
+}
+#pie {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 5px solid rgb(24, 24, 127);
+}
